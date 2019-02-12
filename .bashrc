@@ -1,3 +1,5 @@
+# ALIASES
+
 # General
 
 alias c='clear'
@@ -38,5 +40,6 @@ alias gll='git pull'
 
 # NPM
 
+alias ns='npm start'
 alias nr='npm run'
-alias nrd='npm run dev'
+alias nd='npm run dev'
