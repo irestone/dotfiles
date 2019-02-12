@@ -17,10 +17,11 @@ alias gi='git add -i'
 
 alias ga='git add'
 alias gaa='git add -A'
-alias gr='git rm -r --cached'
-alias gra='git rm -r --cached .'
+alias gr='git reset'
+alias grh='git reset --hard'
 
 alias gc='git commit -m'
+alias gca='git commit -am'
 
 alias gb='git branch'
 alias gba='git branch -a'
