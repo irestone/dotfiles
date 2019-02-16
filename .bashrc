@@ -37,4 +37,4 @@ alias dev='npm run dev'
 alias run='npm run'
 
 # Config
-alias bashrc='code .bashrc --prefix $HOME'
+alias bashrc='code $HOME/.bashrc'
