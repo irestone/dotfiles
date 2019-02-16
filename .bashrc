@@ -6,41 +6,31 @@ alias c='clear'
 
 # Git
 
-alias gs='git status'
-alias gl='git log --graph --oneline --decorate'
+alias stat='git status'
+alias log='git log --graph --oneline --decorate'
 
-alias gd='git diff'
-alias gds='git diff --staged'
-alias gdh='git diff HEAD'
+alias add='git add -A'
 
-alias gi='git add -i'
+alias com='git commit -m'
+alias coma='git add -A && git commit -m'
 
-alias ga='git add'
-alias gaa='git add -A'
-alias gr='git reset'
-alias grh='git reset --hard'
-
-alias gc='git commit -m'
-alias gca='git commit -am'
-
-alias gb='git branch'
-alias gba='git branch -a'
-alias gbm='git branch --merged'
-alias gbd='git branch -d'
-alias gbD='git branch -D'
-alias gbdr='git push -d'
+alias branch='git branch -a'
+alias merged='git branch --merged'
+alias del='git branch -d'
+alias DEL='git branch -D'
+alias delrem='git push -d'
 
 alias go='git checkout'
-alias gob='git checkout -b'
+alias do='git checkout -b'
 
-alias gm='git merge'
+alias merge='git merge'
 
-alias gsh='git push'
-alias gshu='git push -u'
-alias gll='git pull'
+alias push='git push'
+alias PUSH='git push -u'
+alias pull='git pull'
 
 # NPM
 
-alias ns='npm start'
-alias nr='npm run'
-alias nd='npm run dev'
+alias start='npm start'
+alias dev='npm run dev'
+alias run='npm run'
