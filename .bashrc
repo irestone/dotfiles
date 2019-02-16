@@ -25,9 +25,10 @@ alias do='git checkout -b'
 
 alias merge='git merge'
 
+alias pull='git pull'
 alias push='git push'
 alias PUSH='git push -u'
-alias pull='git pull'
+alias sync='git pull && git push'
 
 # NPM
 
