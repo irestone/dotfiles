@@ -37,4 +37,4 @@ alias dev='npm run dev'
 alias run='npm run'
 
 # Config
-alias bashrc='code $HOME/.bashrc'
+alias bashrc='code c:/Users/khanb/.bashrc'
