@@ -35,3 +35,6 @@ alias sync='git pull && git push'
 alias start='npm start'
 alias dev='npm run dev'
 alias run='npm run'
+
+# Config
+alias bashrc='code .bashrc --prefix $HOME'
