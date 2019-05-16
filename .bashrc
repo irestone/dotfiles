@@ -9,10 +9,10 @@ alias c='clear'
 alias stat='git status'
 alias log='git log --graph --oneline --decorate'
 
-alias add='git add -A'
-
+alias co='git commit'
 alias com='git commit -m'
-alias coma='git add -A && git commit -m'
+alias coa='git add -A && git commit'
+alias coam='git add -A && git commit -m'
 
 alias branch='git branch -a'
 alias merged='git branch --merged'
@@ -32,9 +32,14 @@ alias sync='git pull && git push'
 
 # NPM
 
-alias start='npm start'
-alias dev='npm run dev'
-alias run='npm run'
+alias ni='npm install'
+alias nid='npm install -D'
+
+alias ns='npm start'
+alias nt='npm test'
+alias nd='npm run dev'
+alias nb='npm run build'
+alias nr='npm run'
 
 # Config
-alias bashrc='code c:/Users/khanb/.bashrc'
+alias bashrc='code c:/Users/irestone/.bashrc'
