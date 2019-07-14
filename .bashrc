@@ -3,6 +3,7 @@
 # General
 
 alias c='clear'
+alias ll='ls -la'
 
 # Git
 
@@ -31,6 +32,8 @@ alias PUSH='git push -u'
 alias sync='git pull && git push'
 
 # NPM
+
+alias nit='npm init -y'
 
 alias ni='npm install'
 alias nid='npm install -D'
